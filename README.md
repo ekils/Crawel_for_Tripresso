@@ -3,41 +3,53 @@
 1. 第一家旅行社的旅遊商品</br>
 
 2. 觀察Tripresso網站，試規劃爬取的資料如何存放在關聯資料庫</br>
-會有哪些Table？</n>
-會有哪些Column？</n>
-哪些Column是Primary Key？</n>
-哪些Column是Foreign Key？</n>
-哪些Column是Unique的？</n>
-ANS:</n>
+會有哪些Table？</br>
+會有哪些Column？</br>
+哪些Column是Primary Key？</br>
+哪些Column是Foreign Key？</br>
+哪些Column是Unique的？
+ANS:</br>
+1. table: 存放agency的table, 資料內容的table,註冊會員table</br>
+2. Column: 標題，地區，出發日期，價錢,搭機來回模式,會員方案,是否即將成團(可售位/總團位)</br>
+3. Primary Key: 
 
 
 </br>
-3. 請以Python撰寫網路爬蟲，至少抓取「對方旅行社」對應內容:</br>
-ANS:</n>
-    'title': 行程名稱</n>
-    'product_num': product_num,</n>
-    'product_price': 價錢 ,</n>
-    'product_days': 旅遊天數,</n>
-    'product_total': 總團位,</n>
-    'product_available': 可售位,</n>
-    'product_date_normal': 出發日期 </n>
+3. 請以Python撰寫網路爬蟲，至少抓取「對方旅行社」對應內容:
+ANS:</br>
+    'title': 行程名稱</br>
+    'product_num': product_num,</br>
+    'product_price': 價錢 ,</br>
+    'product_days': 旅遊天數,</br>
+    'product_total': 總團位,</br>
+    'product_available': 可售位,</br>
+    'product_date_normal': 出發日期 </br>
 
 </br>
-4. 將抓完的資料以2.的規劃方式儲存</n>
-5. 以下是第二家旅行社的商品網址，重複3.4.步驟，將資料爬取且與4.存放在同一資料區</n>
+4. 將抓完的資料以2.的規劃方式儲存</br>
+5. 以下是第二家旅行社的商品網址，重複3.4.步驟，將資料爬取且與4.存放在同一資料區</br>
 
-6. 附上以上的內容(可用github或是壓縮檔案等方式附檔)，內容須至少包含
-網路爬蟲的Python程式碼，會分別抓取以下兩家旅行社
-https://www.gloriatour.com.tw/
-http://www.orangetour.com.tw/
-步驟3. 規定的抓取內容：旅遊天數、行程名稱、出發日期、價錢、可售位、總團位
-若以MySQL方式儲存，可附以MySQL匯出後檔案
-若以SQLite檔案儲存，可附上該檔案
-若以csv/json 方式儲存，請附圖說明以何種欄位關聯(哪些是Foreign Key)
+6. 附上以上的內容(可用github或是壓縮檔案等方式附檔)，內容須至少包含網路爬蟲的Python程式碼，會分別抓取旅行社 步驟3. 規定的抓取內容：旅遊天數、行程名稱、出發日期、價錢、可售位、總團位。若以MySQL方式儲存，可附以MySQL匯出後檔案 (哪些是Foreign Key)
+ANS:</br>
+1.設計agency為foreign key. 不同agency 會對應到相應的欄位。</br>
+2.檔案會在完成後上傳在github上，之後參考commmit-log.</br>
 
-＊加分項目：
-資料的正確性以及乾淨程度
-抓取兩家旅行社兩頁以上的商品資料
-多抓取步驟3. 以外，而有出現在Tripesso網站上的內容
-使用requests而非selenium
+</br>
+＊加分項目：</br>
+資料的正確性以及乾淨程度</br>
+抓取兩家旅行社兩頁以上的商品資料 </br>
+多抓取步驟3. 以外，而有出現在Tripesso網站上的內容</br>
+使用requests而非selenium</br>
 程式碼的維護性及可擴充性
+ANS:</br>
+由於換頁抓取必須要有click的觸發，以request 無法完成。故必須以selenium 以onclick自動化觸發換頁。</br>
+另外基於程式碼的可維護性與可擴充性：
+設計為輸入頁數即可抓取第一頁～輸入的頁數資料。</br>
+利用oop概念，設計要抓取網址為 private property </br>
+之後或許會導入更多.py檔。 故以：if __name__ == '__main__' 維護程式碼的克靠性。<br>
+
+
+
+
+
+
