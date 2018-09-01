@@ -8,12 +8,13 @@
 哪些Column是Primary Key？</br>
 哪些Column是Foreign Key？</br>
 哪些Column是Unique的？</br>
-<h5>ANS:</br></h5>
+<h4>ANS:</br></h4>
+
 ![GitHub Logo](https://github.com/ekils/Crawel_for_Tripresso/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-09-02%20%E4%B8%8A%E5%8D%8812.56.01.png)
 
 </br>
-3. 請以Python撰寫網路爬蟲，至少抓取「對方旅行社」對應內容:</br>
-ANS:</br>
+<h3>3. 請以Python撰寫網路爬蟲，至少抓取「對方旅行社」對應內容:</br></h3>
+<h4>ANS:</br></h4>
     'title': 行程名稱</br>
     'product_num': product_num,</br>
     'product_price': 價錢 ,</br>
@@ -23,22 +24,22 @@ ANS:</br>
     'product_date_normal': 出發日期 </br>
 
 </br>
-4. 將抓完的資料以2.的規劃方式儲存</br>
-5. 以下是第二家旅行社的商品網址，重複3.4.步驟，將資料爬取且與4.存放在同一資料區</br>
-6. 附上以上的內容(可用github或是壓縮檔案等方式附檔)，內容須至少包含網路爬蟲的Python程式碼，會分別抓取旅行社 步驟3. 規定的抓取內容：旅遊天數、行程名稱、出發日期、價錢、可售位、總團位。若以MySQL方式儲存，可附以MySQL匯出後檔案 (哪些是Foreign Key)</br>
-ANS:</br>
+<h3>4. 將抓完的資料以2.的規劃方式儲存</br></h3>
+<h3>5. 以下是第二家旅行社的商品網址，重複3.4.步驟，將資料爬取且與4.存放在同一資料區</br></h3>
+<h3>6. 附上以上的內容(可用github或是壓縮檔案等方式附檔)，內容須至少包含網路爬蟲的Python程式碼，會分別抓取旅行社 步驟3. 規定的抓取內容：旅遊天數、行程名稱、出發日期、價錢、可售位、總團位。若以MySQL方式儲存，可附以MySQL匯出後檔案 (哪些是Foreign Key)</br></h3>
+<h4>ANS:</br></h4>
 1.設計agency為foreign key. 不同agency 會對應到相應的欄位。</br>
 2.檔案會在完成後上傳在github上，之後參考commmit-log.</br>
 
 </br>
-＊加分項目：</br>
+<h3>＊加分項目：</br><h3>
 資料的正確性以及乾淨程度</br>
 抓取兩家旅行社兩頁以上的商品資料 </br>
 多抓取步驟3. 以外，而有出現在Tripesso網站上的內容</br>
 使用requests而非selenium</br>
 程式碼的維護性及可擴充性</br>
 </br>
-ANS:</br>
+<h4>ANS:</br></h4>
 * 由於換頁抓取必須要有click的觸發，以request 無法完成。故必須以selenium 以onclick自動化觸發換頁。</br>
 * 另外基於程式碼的可維護性與可擴充性：1. 設計為輸入頁數即可抓取第一頁～輸入的頁數資料。  2.利用oop概念，設計要抓取網址為 private property </br>
 * 之後或許會導入更多.py檔。 故以：if __name__ == '__main__' 維護程式碼的克靠性。<br>
