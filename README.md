@@ -2,13 +2,13 @@
 </br>
 <h3>1. 第一家旅行社的旅遊商品</br></h3>
 
-2. 觀察Tripresso網站，試規劃爬取的資料如何存放在關聯資料庫</br>
+<h3>2. 觀察Tripresso網站，試規劃爬取的資料如何存放在關聯資料庫</br></h3>
 會有哪些Table？</br>
 會有哪些Column？</br>
 哪些Column是Primary Key？</br>
 哪些Column是Foreign Key？</br>
 哪些Column是Unique的？</br>
-ANS:</br>
+<h5>ANS:</br></h5>
 ![GitHub Logo](https://github.com/ekils/Crawel_for_Tripresso/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-09-02%20%E4%B8%8A%E5%8D%8812.56.01.png)
 
 </br>
