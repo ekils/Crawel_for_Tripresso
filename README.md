@@ -1,4 +1,4 @@
-# Crawel_for_Tripresso
+# Crawl_for_Tripresso
 </br>
 <h3>1. 第一家旅行社的旅遊商品</br></h3>
 
@@ -29,7 +29,7 @@
 <h3>6. 附上以上的內容(可用github或是壓縮檔案等方式附檔)，內容須至少包含網路爬蟲的Python程式碼，會分別抓取旅行社 步驟3. 規定的抓取內容：旅遊天數、行程名稱、出發日期、價錢、可售位、總團位。若以MySQL方式儲存，可附以MySQL匯出後檔案 (哪些是Foreign Key)</br></h3>
 <h4>ANS:</br></h4>
 1.設計agency為foreign key. 不同agency 會對應到相應的欄位。</br>
-2.檔案會在完成後上傳在github上，之後參考commmit-log.</br>
+2.已上傳在github上，參考commmit-log.</br>
 
 </br>
 <h3>＊加分項目：</br><h3>
