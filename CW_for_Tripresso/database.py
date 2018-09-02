@@ -25,7 +25,9 @@ class Base:
                             "product_total text NOT NULL," 
                             "product_available text NOT NULL," 
                             "product_date_normal text NOT NULL, "
-                            "agency_id int, "        
+                            "country text NOT NULL,"
+                            "city text NOT NULL,"
+                            "agency_id int,"        
                             "PRIMARY KEY (id),"
                             "UNIQUE (product_num),"
                             "foreign key (agency_id) references agencytable(agency_id))")
@@ -37,11 +39,32 @@ class Base:
         return
 
 
-    def add_dat(self,t,n,p,d,tt,a,dn,title):
+    def add_dat(self,t,n,p,d,tt,a,dn,coty,ct,title):
         self.cursor.execute("alter table bigtable modify title MEDIUMTEXT character set utf8")
         self.cursor.execute("alter table bigtable modify product_days MEDIUMTEXT character set utf8")
-        self.cursor.execute("insert into bigtable(title,product_num,product_price,product_days,product_total,product_available,product_date_normal,agency_id) "
-                            "values('{}','{}','{}','{}','{}','{}','{}',(select agency_id from agencytable where agency_text='{}')) on duplicate key update product_num ='{}' ".format(t,n,p,d,tt,a,dn,title,n))
+        self.cursor.execute("alter table bigtable modify country MEDIUMTEXT character set utf8")
+        self.cursor.execute("alter table bigtable modify city MEDIUMTEXT character set utf8")
+        self.cursor.execute("insert into bigtable("
+                            "title,"
+                            "product_num,"
+                            "product_price,"
+                            "product_days,"
+                            "product_total,"
+                            "product_available,"
+                            "product_date_normal,"
+                            "country,"
+                            "city,"
+                            "agency_id) "
+                            "values("
+                            "'{}',"
+                            "'{}',"
+                            "'{}',"
+                            "'{}',"
+                            "'{}',"
+                            "'{}',"
+                            "'{}',"
+                            "'{}',"
+                            "'{}',(select agency_id from agencytable where agency_text='{}')) on duplicate key update product_num ='{}' ".format(t,n,p,d,tt,a,dn,coty,ct,title,n))
         self.db.commit()
         return
 

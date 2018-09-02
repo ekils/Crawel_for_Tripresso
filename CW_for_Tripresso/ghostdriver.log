@@ -1,145 +1,1712 @@
-[INFO  - 2018-09-01T17:10:06.722Z] GhostDriver - Main - running on port 53401
-[INFO  - 2018-09-01T17:10:06.787Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-09-01T17:10:06.787Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.customHeaders:  - {}
-[INFO  - 2018-09-01T17:10:06.787Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-09-01T17:10:06.787Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dfd1d6d0-ae09-11e8-864d-dff8e60a65e9
-[ERROR - 2018-09-01T17:10:13.948Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: ReferenceError: Can't find variable: $
+[INFO  - 2018-09-02T14:40:53.609Z] GhostDriver - Main - running on port 61662
+[INFO  - 2018-09-02T14:40:53.716Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-09-02T14:40:53.716Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.customHeaders:  - {}
+[INFO  - 2018-09-02T14:40:53.716Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-09-02T14:40:53.716Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 31c985f0-aebe-11e8-ae8e-ff943531c279
+[ERROR - 2018-09-02T14:41:00.073Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:13.949Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:41:00.073Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp:138)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:17.259Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+[ERROR - 2018-09-02T14:41:04.377Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:17.259Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:41:04.377Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.377Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.377Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.377Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.377Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.383Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.383Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.383Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.383Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.383Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.383Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.452Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:04.452Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.139Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:41:07.086Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.139Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:41:07.086Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ME1180903TKA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:09.446Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:09.446Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:15.149Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:15.149Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:17.449Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:17.449Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:20.569Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:20.570Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EW1080903BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:28.464Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:28.464Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:30.422Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:30.422Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:33.583Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:33.583Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ES1580904TKA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:36.204Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:36.204Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:41.819Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:41.819Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:43.505Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:43.505Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:46.400Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:46.401Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EN1280904SKB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:48.767Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:48.767Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:54.499Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:54.499Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:56.175Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:56.175Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:58.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:41:58.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180905KEB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:01.266Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:01.266Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:06.940Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:06.940Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:08.514Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:08.514Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:11.921Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:11.921Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180905KEA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:13.762Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:13.763Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:19.773Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:19.773Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:21.663Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:21.663Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:24.195Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:24.195Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EC1280905BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:25.964Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:25.964Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:31.923Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:31.923Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:34.196Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:34.196Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:37.182Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:37.182Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TYO180906ITA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:39.534Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:39.534Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:44.938Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:44.938Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:46.775Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:46.776Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:50.683Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:50.683Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EE1280906OSA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:58.413Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:42:58.413Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:00.390Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:00.390Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:02.652Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:02.652Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AK1080906KQA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:04.731Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:04.731Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:10.586Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:10.586Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:12.463Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:12.463Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:16.658Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:16.658Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EE1080907BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:18.705Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:18.705Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:24.446Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:24.447Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:26.139Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:26.139Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:28.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:28.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=SS1080907TKA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:31.359Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:31.360Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:37.100Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:37.100Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:40.054Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:40.054Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:42.962Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:42.962Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ME1080908TKA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:45.304Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:45.305Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:51.033Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:51.033Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:53.166Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:53.166Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:56.651Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:56.651Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AK0880908KQA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:58.395Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:43:58.396Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:04.552Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:04.552Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:06.242Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:06.251Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:09.834Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:09.834Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EW1080909QRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:12.078Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:12.086Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:17.642Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:17.642Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:19.161Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:19.168Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:21.946Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:21.946Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ES1080909CAA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:24.239Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:24.239Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:30.092Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:30.137Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:35.745Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:35.748Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:37.382Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:37.382Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EW1080901BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:43.396Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:43.400Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:48.845Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: TypeError: undefined is not an object (evaluating 'f[0].offsetWidth')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:48.846Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  slide (http://www.orangetour.com.tw/eweb_asiantour/js/bootstrap.min.js:6)
+  next (http://www.orangetour.com.tw/eweb_asiantour/js/bootstrap.min.js:6)
+  e (http://www.orangetour.com.tw/eweb_asiantour/js/jquery-3.1.1.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:49.489Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:49.489Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:54.198Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:54.199Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180912KEB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:59.996Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:44:59.996Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:05.674Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:05.674Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:07.970Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:07.970Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:11.518Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:11.518Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180912KEA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:13.209Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:13.209Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:19.112Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:19.112Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:20.916Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:20.916Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:25.016Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:25.017Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TXN180912BRC:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:26.714Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:26.714Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:32.925Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:32.925Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=1&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:34.883Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:34.883Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:38.249Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:38.250Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.139Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:45:38.250Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.139Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:45:38.250Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.139Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:45:38.250Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.139Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:45:38.250Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.143Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:45:38.257Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.143Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:45:38.257Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.143Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:45:38.257Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.143Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:45:38.257Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.143Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:45:38.257Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:19.143Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:45:38.259Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.753Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:45:40.660Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.753Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:45:40.660Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=LHW180912HUB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:42.359Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:42.359Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:48.305Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:48.305Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:51.208Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:51.208Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:52.485Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:52.485Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TYO180913ITA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-09-02T14:45:53.618Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-09-02T14:45:54.147Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:45:54.147Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:00.152Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:00.152Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:01.912Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:01.912Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:05.801Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:05.801Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AK1080913KQA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:08.017Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:08.017Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:13.588Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:13.596Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:16.963Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:16.963Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:19.720Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:19.720Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=URC180914HUD:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:21.659Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:21.660Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:27.411Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:27.411Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:29.324Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:29.325Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:32.015Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:32.016Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EE1080914BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:34.399Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:34.399Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:40.027Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:40.027Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:42.022Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:42.023Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:44.269Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:44.269Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AS0680915ZZA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:52.839Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:52.839Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:54.679Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:54.679Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:57.281Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:57.281Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AN1080915QRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:59.612Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:46:59.613Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:05.032Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:05.032Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:06.772Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:06.781Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:09.944Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:09.944Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EC1180915BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:12.206Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:12.208Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:17.845Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:17.846Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:19.581Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:19.588Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:23.940Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:23.940Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AK0880915KQA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:25.737Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:25.737Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:31.946Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:31.948Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:36.259Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:36.260Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:38.618Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:38.621Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=HAK180916HUB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:47.194Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:47.195Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:50.381Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:50.381Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:52.574Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:52.574Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=HAK180916HUA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:54.242Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:47:54.242Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:00.212Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:00.212Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:01.762Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:01.762Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:08.297Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:08.297Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=HAK180916HUC:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:10.624Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:10.624Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:16.133Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:16.134Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:18.249Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:18.249Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:21.635Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:21.635Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TXN180916BRB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:23.508Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:23.508Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:29.561Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:29.562Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:31.244Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:31.244Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:35.150Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:35.150Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=CSX180917CZC:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:37.386Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:37.387Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:43.076Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:43.076Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:45.161Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:45.161Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:48.612Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:48.612Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=LHW180917HUA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:56.160Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:56.160Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:58.452Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:48:58.452Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:01.116Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:01.116Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EW1080917BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:09.001Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:09.001Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:10.578Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:10.578Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:13.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:13.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EE1080917OSA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:22.116Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:22.124Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:24.142Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:24.142Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:27.118Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:27.118Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=DYG180918CZB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:37.140Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:37.140Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:39.090Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:39.090Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:41.439Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:41.439Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180919KEE:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:43.711Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:43.711Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:49.441Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:49.441Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:52.016Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:52.016Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:54.665Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:54.665Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180919KEB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:56.882Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:49:56.882Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:02.973Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:02.973Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=2&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:04.876Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:04.876Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:07.037Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:07.037Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.753Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:07.037Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.753Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:50:07.037Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.753Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:07.037Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.753Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:50:07.037Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.757Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:07.043Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.757Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:50:07.043Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.757Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:07.044Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.757Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:50:07.044Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.757Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:07.044Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:25.757Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
+[ERROR - 2018-09-02T14:50:07.044Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
   (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.536Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:09.432Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.543Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
-  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+[ERROR - 2018-09-02T14:50:09.440Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180919KEA:104)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.543Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:11.418Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.544Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
-  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+[ERROR - 2018-09-02T14:50:11.418Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.544Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:17.277Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.544Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
-  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+[ERROR - 2018-09-02T14:50:17.284Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.548Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:19.473Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.548Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
-  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+[ERROR - 2018-09-02T14:50:19.473Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.548Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:21.994Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.548Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
-  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+[ERROR - 2018-09-02T14:50:21.994Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TXN180919BRC:104)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.548Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - msg: cannot call methods on masonry prior to initialization; attempted to call 'reloadItems'
+[ERROR - 2018-09-02T14:50:30.311Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: TypeError: undefined is not an object (evaluating 'f[0].offsetWidth')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-09-01T17:10:32.548Z] Session [dfd1d6d0-ae09-11e8-864d-dff8e60a65e9] - page.onError - stack:
-  (anonymous function) (http://www.orangetour.com.tw/eweb_asiantour/js/masonry.pkgd.min.js:9)
+[ERROR - 2018-09-02T14:50:30.312Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  slide (http://www.orangetour.com.tw/eweb_asiantour/js/bootstrap.min.js:6)
+  next (http://www.orangetour.com.tw/eweb_asiantour/js/bootstrap.min.js:6)
+  e (http://www.orangetour.com.tw/eweb_asiantour/js/jquery-3.1.1.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:31.595Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:31.595Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:37.175Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:37.176Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:44.987Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:44.989Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:47.171Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:47.172Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=LHW180919HUB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:49.611Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:49.611Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-09-02T14:50:53.634Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-09-02T14:50:55.308Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:55.308Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:57.772Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:50:57.772Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:01.935Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:01.935Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TYO180920ITA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:04.077Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:04.077Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:09.712Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:09.712Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:12.099Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:12.099Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:29.893Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:29.901Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AS0680920ZZA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:32.318Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:32.318Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:37.643Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:37.643Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:41.360Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:41.361Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AK1080920KQA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:48.981Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:48.989Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:53.297Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:53.297Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EE1080921BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:55.756Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:51:55.758Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:02.430Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:02.438Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:06.192Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:06.192Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=SS1080921TKA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:08.513Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:08.515Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:14.103Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:14.103Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:15.711Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:15.712Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:19.878Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:19.878Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180922KEB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:28.360Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:28.367Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:31.504Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:31.504Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:34.118Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:34.118Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ICN180922KEA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:41.798Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:41.798Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:44.218Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:44.220Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:46.708Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:46.708Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AK0880922KQA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:49.529Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:49.530Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:55.541Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:55.542Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:57.400Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:52:57.400Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:00.200Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:00.200Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=HAK180923HUB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:02.532Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:02.533Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:08.302Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:08.302Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:10.277Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:10.277Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:12.783Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:12.783Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=HAK180923HUA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:14.678Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:14.678Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:20.462Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:20.462Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:22.484Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:22.484Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:25.084Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:25.084Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=HAK180923HUC:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:32.033Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:32.033Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:38.009Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:38.012Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:43.103Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:43.103Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=TXN180923BRB:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:45.709Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:45.710Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:51.145Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:51.145Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:55.788Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:55.788Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EW1080923CAA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:58.666Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:53:58.666Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:04.240Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:04.240Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:05.836Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:05.836Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:09.315Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:09.315Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=EW1080924BRA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:11.799Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:11.799Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:17.315Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:17.315Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:19.073Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:19.073Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:21.332Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:21.332Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=AS0780925ZZA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:28.049Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:28.049Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:29.893Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:29.893Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:33.699Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:33.699Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=DEL08180925B&sacctNo=84262490:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:35.699Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:35.699Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:41.952Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:41.952Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:48.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:48.942Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupDetail.asp?prodCd=ME1180925TKA:104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:51.307Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:51.307Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:57.041Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:57.041Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  global code (http://www.orangetour.com.tw/EW/GO/GroupList.asp?displayType=G&subCd=&orderCd=1&pageALL=3&pageGO=1&pagePGO=1&waitData=false&waitPage=false&mGrupCd=&SrcCls=&tabList=&regmCd=&regsCd=&beginDt=2018%2F09%2F02&endDt=2019%2F03%2F02&portCd=&tdays=&bjt=&carr=&allowJoin=1&allowWait=1&ikeyword=:138)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:58.748Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - msg: ErrorUtils caught an error: "<![EX[["Tried to listen to element of type %s from %s: %s","click","Error","C...". Subsequent errors won't be logged; see https://fburl.com/debugjs.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-02T14:54:58.748Z] Session [31c985f0-aebe-11e8-ae8e-ff943531c279] - page.onError - stack:
+  reportError (https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/yp_FG4YLi3r.js:60)
 
   phantomjs://platform/console++.js:263 in error

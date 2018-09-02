@@ -2,7 +2,7 @@
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import  time
+import time
 import re
 
 import database
@@ -26,7 +26,6 @@ class CW_class:
 
     def main(self, page=None):
 
-
         count = 1
         agency = []
         if page!=None:
@@ -39,8 +38,8 @@ class CW_class:
         u = self.url
         self.driver.get(u)
 
-
-        pat_title = re.compile('(?:http|https)://www\..*\.com')
+    # 以網站名稱作為 agency名稱欄位
+        pat_title = re.compile('(?:http|https)://www\..*\.com') # https and http
         t = pat_title.search(u).group()
         agency_title = (t.split('www.')[1]).split('.com')[0]
 
@@ -53,15 +52,16 @@ class CW_class:
             pg = count * 2 + 1
 
             self.driver.find_element_by_xpath(f"//*[@id='panel-1']/nav/ul[@class='pagination']/li[{pg}]/a").click()
-            time.sleep(5)
+            # time.sleep(5)
             soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
             l = (soup.find_all('div', 'thumbnail'))  # 網站用thumbnail 做區塊
 
-            for i in range(len(l)//2):  # 因為重複
+            for i in range(len(l)//2):  # 因為網頁內容有重複
                 a = l[i].find('div', 'product_name').contents[1]
                 a = (str(a).replace(" ", "")).replace('\n', '')
                 pat = re.compile('</span>.*<div')
+            # Get normal title
                 title = ((pat.search(a).group()).split('</span>')[2]).split('<div')[0]
                 product_num = (l[i].find('span', 'product_num').string)
                 product_price = (l[i].find('div', 'product_price').find('strong').string)
@@ -70,6 +70,15 @@ class CW_class:
                 product_available = (l[i].find('div', 'product_available').find('span', 'number').string)
                 product_date_normal = (l[i].find('div', 'product_date normal').string)
 
+            # Get country and city :
+                self.driver.find_element_by_xpath(f"//*[@class='product product_item item'][{i}+1]/div[@class='thumbnail']/div[@class='product_name']/a").click()
+
+                soup2 = BeautifulSoup(self.driver.page_source, "html.parser")
+                lp = (soup2.find('ol', 'breadcrumb'))
+                c = (lp.find_all('a'))
+                country = c[1].string
+                city = c[2].string
+
                 dic = {
                     'title': title,
                     'product_num': product_num,
@@ -77,9 +86,15 @@ class CW_class:
                     'product_days': product_days,
                     'product_total': product_total,
                     'product_available': product_available,
-                    'product_date_normal': product_date_normal
+                    'product_date_normal': product_date_normal,
+                    'country':country,
+                    'city':city
                 }
+
                 agency.append(dic)
+                self.driver.back()
+
+
 
             # print(len(agency))
             count= count+1
@@ -89,7 +104,7 @@ class CW_class:
 
         for i in agency:
             # self.db.time_to_add_data(agency_title,i['title'],i['product_num'],i['product_price'],i['product_days'],i['product_total'],i['product_available'],i['product_date_normal'])
-            self.db.add_dat(i['title'],i['product_num'],i['product_price'],i['product_days'],i['product_total'],i['product_available'],i['product_date_normal'],agency_title,)
+            self.db.add_dat(i['title'],i['product_num'],i['product_price'],i['product_days'],i['product_total'],i['product_available'],i['product_date_normal'],i['country'],i['city'],agency_title,)
 
 
 if __name__ == '__main__':
